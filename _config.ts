@@ -1,7 +1,7 @@
 import lume from "lume/mod.ts";
 
 const site = lume({
-  dest: "./output",
+  dest: "./docs",
   server: {
     open: true,
   },
