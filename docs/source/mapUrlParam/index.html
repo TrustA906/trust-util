@@ -71,26 +71,12 @@
       <li><a href="/trust-util/source/verify/isPhone" id="isPhone">isPhone</a></li>
     </ul>
     <div class="content">
-      <h1>信美前端工具库 trust-util</h1>
-<hr>
-<p>安装：</p>
-<pre><code>npm install trust-util
-</code></pre>
-<hr>
-<p>使用：</p>
-<pre><code>import { isBankCode } from 'trust-util';
-</code></pre>
-<hr>
-<p>工具库：</p>
-<pre><code>1、isBankCode：校验银行卡
-2、mapUrlParam：url参数序列化
-3、isArray：数组类型校验
-4、isAddress：校验详细地址
-5、isEmail：校验邮箱
-6、isForeigner：外国人永久居留证
-7、isPhone：校验手机号
-8、isCardID：校验身份证号
-9、fetchRequest：fetch请求
+      <h1>mapUrlParam</h1>
+<p>url参数转换</p>
+<h2>使用示例</h2>
+<pre><code class="language-javascript">import { mapUrlParam } from trust-util;
+const params = mapUrlParam('http:www.abc.com?aa=11&amp;bb=22')
+console.log(params) // output:{aa:11,bb:22}
 </code></pre>
 
     </div>
